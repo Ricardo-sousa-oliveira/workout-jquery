@@ -1,0 +1,20 @@
+.box {
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  &_input {
+    border-radius: 20px;
+    margin-bottom: 15px;
+    background: transparent;
+  }
+  &_btn {
+    background: black;
+    color: white;
+    border-radius: 10px;
+    width: 90px;
+    border: none;
+  }
+}

@@ -10,11 +10,44 @@
     margin-bottom: 15px;
     background: transparent;
   }
-  &_btn {
+  &_add {
     background: black;
     color: white;
     border-radius: 10px;
-    width: 90px;
+    width: 110px;
+    border: none;
+    margin-bottom: 10px;
+  }
+  &_remove {
+    background: black;
+    color: white;
+    border-radius: 10px;
+    width: 110px;
     border: none;
   }
+}
+.remove_item {
+  background: white;
+  margin-left: 10px;
+  border-radius: 25px;
+  border: none;
+  width: 25px;
+  height: 25px;
+}
+
+.edit_item {
+  border-radius: 8px;
+  width: 50px;
+  background: white;
+  border: none;
+  margin-bottom: 8px;
+  margin-left: 10px;
+}
+
+.editing {
+  border: solid 1px greenyellow;
+}
+
+li {
+  padding-bottom: 10px;
 }

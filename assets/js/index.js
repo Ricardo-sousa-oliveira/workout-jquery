@@ -13,6 +13,7 @@ $(document).on("click", ".remove_item", function () {
 });
 
 $(document).on("click", ".edit_item", function () {
+  $(".edit_item").parent().removeClass( "editing" );
   $(this).parent().addClass( "editing" );
   $(".box_input").focus();
 });

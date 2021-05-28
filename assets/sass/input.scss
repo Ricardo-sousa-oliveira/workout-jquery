@@ -10,21 +10,6 @@
     margin-bottom: 15px;
     background: transparent;
   }
-  &_add {
-    background: black;
-    color: white;
-    border-radius: 10px;
-    width: 110px;
-    border: none;
-    margin-bottom: 10px;
-  }
-  &_remove {
-    background: black;
-    color: white;
-    border-radius: 10px;
-    width: 110px;
-    border: none;
-  }
 }
 .remove_item {
   background: white;
@@ -46,6 +31,16 @@
 
 .editing {
   border: solid 1px greenyellow;
+}
+
+.button {
+  background: black;
+  color: white;
+  border-radius: 10px;
+  width: 110px;
+  border: none;
+  margin-bottom: 10px;
+
 }
 
 li {

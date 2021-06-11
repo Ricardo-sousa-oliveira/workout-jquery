@@ -6,7 +6,12 @@
   flex-direction: column;
 
   &_input {
-    border-radius: 20px;
+    border: white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: 0;
+    box-shadow: ;
     margin-bottom: 15px;
     background: transparent;
   }

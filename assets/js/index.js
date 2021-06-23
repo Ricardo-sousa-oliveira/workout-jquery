@@ -40,3 +40,16 @@ $(document).ready(function () {
     items--;
   });
 });
+
+var numbers = [50, 50];
+var soma = 0;
+
+function addedNumbers (numbers) {
+  var soma = 0;
+  for (i =0; i < numbers.length; i++) {
+    soma += numbers[i]
+  }
+  return soma;
+};
+
+console.log(addedNumbers(numbers));
